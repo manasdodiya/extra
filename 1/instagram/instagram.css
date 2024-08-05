@@ -12,6 +12,9 @@ body {
     height: 110vh;
 }
 
+.main {
+    width: 25rem;
+}
 
 .box-1 {
     border: solid 1px white;
@@ -27,7 +30,7 @@ body {
 
 .box-1 #username {
     margin-top: 2rem;
-    width: 20rem;
+    width: 100%;
     border: solid 1px white;
     border-radius: 7px;
     height: 2rem;
@@ -44,7 +47,7 @@ body {
 
 .box-1 #password {
     margin-top: 0.5rem;
-    width: 20rem;
+    width: 100%;
     border: solid 1px white;
     border-radius: 7px;
     height: 2rem;
@@ -61,7 +64,7 @@ body {
 
 .box-1 #login {
     margin-top: 0.5rem;
-    width: 21rem;
+    width: 105%;
     border: solid 1px white;
     border-radius: 7px;
     background-color: transparent;
@@ -90,7 +93,7 @@ hr {
     border: solid 1px white;
     border-radius: 7px;
     background-color: transparent;
-    width: 20rem;
+    width: 100%;
     padding: 0.5rem;
     height: 2rem;
     justify-content: center;
@@ -185,8 +188,19 @@ hr {
     text-decoration: solid underline 1px white;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1020px) {
     .footer {
         visibility: hidden;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer {
+        visibility: hidden;
+    }
+
+    .main {
+        flex: 0;
+        width: 90%;
     }
 }

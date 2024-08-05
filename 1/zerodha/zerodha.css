@@ -1,0 +1,319 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+    font-family: 'Inter', serif;
+    font-weight: 200;
+}
+
+.header {
+    padding-top: 3rem;
+    position: sticky;
+    top: 0rem;
+    display: flex;
+    justify-content: center;
+}
+
+.main-header {
+    border: solid 1px rgb(57, 125, 209);
+    border-radius: 10rem;
+    display: flex;
+    background-color: black;
+    gap: 2rem;
+    justify-content: center;
+    padding: 0rem 4rem 0rem 4rem;
+    width: 80%;
+    margin: 0rem 2rem 0rem 2rem;
+}
+
+#fix-this-1 {
+    max-width: 10rem;
+    padding: 1rem;
+}
+
+#fix-this-2 {
+    align-self: center;
+    cursor: pointer;
+    max-width: 5rem;
+}
+
+.main-header .nav {
+    display: flex;
+    gap: 1rem;
+    margin-left: 8rem;
+}
+
+.main-header .nav  a{
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.main-header .nav  a:hover{
+    color: rgb(57, 125, 209);
+    text-decoration: solid underline 1px rgb(57, 125, 209);
+}
+
+.page1 {
+    padding: 5rem 2rem 5rem 2rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.page1 img {
+    max-width: 60%;
+}
+
+#page1-a {
+    margin-top: 5rem;
+    font-size: 3rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+#page1-b {
+    font-size: 1.5rem;
+    margin-top: -1.5rem;
+    text-align: center;
+}
+
+.page1 button {
+    margin-top: 2rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border-radius: 2rem;
+    font-size: 1.25rem;
+    color: white;
+    background-color: rgb(57, 125, 209);
+    border: none;
+    cursor: pointer;
+}
+
+.page2 {
+    padding: 2rem 5rem 2rem 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+#page2-a {
+    text-align: left;
+    max-width: 30%;
+    padding: 1rem;
+}
+
+.page2-a-x {
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 1rem 1rem 2rem 1rem;
+}
+
+.page2-a-h {
+    font-size: 1.25rem;
+    font-weight: 300;
+    padding: 1rem 1rem 0.5rem 1rem;
+}
+
+.page2-a-t {
+    font-size: 1rem;
+    padding: 0.5rem 1rem 1rem 1rem;
+    line-height: 1.75rem;
+}
+
+.page2-a-t a {
+    color: rgb(57, 125, 209);
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.page2-a-t a:hover {
+    color: white;
+    text-decoration: solid underline 1px white;
+}
+
+#page2-b {
+    margin-left: 2rem;
+    max-width: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#page2-b img {
+    max-width: 100%;
+    max-height: 90%;
+}
+
+.page2-b-x {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.page2-b-x a {
+    color: rgb(57, 125, 209);
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+
+.page2-b-x a:hover {
+    color: white;
+    text-decoration: solid underline 1px white;
+}
+
+.page3 {
+    padding: 5rem;
+}
+
+.page3-a {
+    display: flex;
+    justify-content: center;
+}
+
+.page3-a img {
+    max-width: 30%;
+}
+
+.page3-a-x {
+    margin-left: 2rem;
+    max-width: 50%;
+}
+
+.page3-a-x-x {
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.page3-a-x-h {
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    padding: 1rem;
+}
+
+.page3-a-x-t {
+    text-align: left;
+    font-size: 1rem;
+    margin: 1rem;
+    color: rgb(57, 125, 209);
+    text-decoration: none;
+}
+
+.page3-a-x-t:hover {
+    color: white;
+    text-decoration: solid underline 1px white;
+}
+
+.page3-b {
+    margin-top: 10rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.page3-b-h {
+    text-align: left;
+    font-size: 3rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.page3-b-t {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.page3-b button {
+    margin-top: 4rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border-radius: 2rem;
+    font-size: 1.25rem;
+    color: white;
+    background-color: rgb(57, 125, 209);
+    border: none;
+    cursor: pointer;
+}
+
+.footer {
+    margin-top: 2rem;
+    border-top: solid 1px white;
+    height: 20vh;
+}
+
+.section1 {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 hr {
+    width: 25%;
+}
+
+.section2 {
+    margin-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.section2 p {
+    font-size: 1rem;
+    text-align: center;    
+}
+
+@media (max-width: 1000px) {
+    .page1 img {
+        max-width: 100%;
+    }
+
+    .page2 {
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 1rem 2rem 1rem;
+    }
+
+    #page2-a {
+        max-width: 100%;
+    }
+
+    #page2-b {
+        max-width: 100%;
+        margin: 2rem 2rem 2rem 2rem;
+    }
+
+    .page3 {
+        padding: 2rem;
+    }
+
+    .page3-a {
+        flex-flow: column;
+        align-items: center;
+        gap: 5rem;
+    }
+
+    .page3-a img {
+        min-width: 80%;
+    }
+
+    .page3-a-x {
+        margin-left: 0rem;
+        max-width: 100%;
+    }
+    
+    .section1 img {
+        max-width: 75%;
+    }
+
+    .section1 hr {
+        display: none;
+    }
+
+    .main-header .nav {
+        display: none;
+    }
+}

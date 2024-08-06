@@ -8,8 +8,7 @@ body {
 .main-container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 110vh;
+    padding-top: 5rem;
 }
 
 .main {
@@ -33,10 +32,9 @@ body {
     width: 100%;
     border: solid 1px white;
     border-radius: 7px;
-    height: 2rem;
     background-color: transparent;
     color: white;
-    padding: 0.5rem;
+    padding: 1rem;
     font-size: 1rem;
 }
 
@@ -50,10 +48,9 @@ body {
     width: 100%;
     border: solid 1px white;
     border-radius: 7px;
-    height: 2rem;
     background-color: transparent;
     color: white;
-    padding: 0.5rem;
+    padding: 1rem;
     font-size: 1rem;
 }
 
@@ -64,13 +61,14 @@ body {
 
 .box-1 #login {
     margin-top: 0.5rem;
-    width: 105%;
+    width: 110%;
     border: solid 1px white;
     border-radius: 7px;
     background-color: transparent;
     color: white;
     padding: 0.5rem;
     font-size: 1rem;
+    cursor: pointer;
 }
 
 .box-1 #login:hover {
@@ -94,8 +92,7 @@ hr {
     border-radius: 7px;
     background-color: transparent;
     width: 100%;
-    padding: 0.5rem;
-    height: 2rem;
+    padding: 1rem;
     justify-content: center;
 }
 
@@ -158,6 +155,7 @@ hr {
     align-items: center;
     margin-top: 1rem;
     color: white;
+    margin-bottom: 4rem;
 }
 
 
@@ -190,22 +188,30 @@ hr {
 
 @media (max-width: 1020px) {
     .footer {
-        visibility: hidden;
+        display: none;
     }
 
     .main {
-        flex: 0;
         min-width: 50%;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .footer {
-        visibility: hidden;
+        display: none;
     }
 
     .main {
-        flex: 0;
+        min-width: 80%;
+    }
+}
+
+@media (max-width: 500px) {
+    .footer {
+        display: none;
+    }
+
+    .main {
         min-width: 90%;
     }
 }

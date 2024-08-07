@@ -1,0 +1,107 @@
+body {
+    margin: 0vw;
+    padding: 0vw;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-image: url('x.jpg');
+    background-size: cover;
+    background-color: rgb(0,0,0,0.6);
+    background-blend-mode: darken;
+    background-attachment: fixed;
+}
+
+.header {
+    display: flex;
+    height: 20vh;
+    justify-content: center;
+    gap: 50vw;
+}
+
+.header a {
+    align-self: center;
+}
+
+.header button {
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem 0.75rem 1.5rem;
+    border-radius: 2rem;
+    background-color: rgb(200, 0, 0);
+    border: none;
+    color: white;
+    font-style: bold;
+    cursor: pointer;
+}
+
+.page1-main {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+#page1-main-1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 1.5rem;
+    text-align: center;
+}
+
+#page1-main-2 {
+    font-size: 1.75rem;
+    font-weight: 400;
+    margin: 1.5rem;
+    text-align: center;
+}
+
+#page1-main-3 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 1.5rem;
+    text-align: center;
+}
+
+#page1-main-4 {
+    display: flex;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+#page1-main-4 input {
+    height: 2rem;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    width: 20rem;
+    border: solid 1px #d9d9d9;
+    border-radius: 2rem;
+    background-color: rgb(0,0,0,0.5);
+    color: white;
+    font-size: 1rem;
+}
+
+#page1-main-4 button {
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+    background-color: rgb(200, 0, 0);
+    border: none;
+    color: white;
+    font-style: bold;
+    cursor: pointer;
+    height: 3rem;
+    width: 10rem;
+    align-self: center;
+}
+
+@media (max-width: 1280px) {
+    .header {
+        justify-content: space-between;
+        gap: 0vw;
+        padding: 0rem 2rem 0rem 2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    #page1-main-4 {
+        flex-flow: column;
+    }
+}

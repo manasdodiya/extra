@@ -1,0 +1,86 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Grey Qo', cursive;
+    font-weight: 400;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vw;
+}
+
+.container div {
+    border: solid 1px white;
+    border-radius: 2rem;
+    height: 60vh;
+    width: 10vw;
+}
+
+.container div:hover {
+    width: 40vh;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+}
+
+#one, #three, #five {
+    position: relative;
+    top: 5vh;
+    background-image: url('star.jpg');
+    background-size: cover;
+    background-position: -95px;
+    background-repeat: no-repeat;
+    background-color: rgb(0, 0, 0, 0.8);
+    background-blend-mode: darken;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 6vw;
+}
+
+#one span, #three span, #five span {
+    display: none;
+}
+
+#one:hover, #three:hover, #five:hover {
+    background-position: -15px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#one:hover span, #three:hover span, #five:hover span {
+    display: inline;
+}
+
+#two, #four, #six {
+    position: relative;
+    bottom: 5vh;
+    background-image: url('sky.jpg');
+    background-size: cover;
+    background-position: -80px;
+    background-repeat: no-repeat;
+    background-color: rgb(0, 0, 0, 0.8);
+    background-blend-mode: darken;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 6vw;
+}
+
+#two span, #four span, #six span {
+    display: none;
+}
+
+#two:hover, #four:hover, #six:hover {
+    background-position: 0px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#two:hover span, #four:hover span, #six:hover span {
+    display: inline;
+}

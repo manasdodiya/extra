@@ -256,16 +256,6 @@ body {
     width: 25%;
 }
 
-.section2 {
-    margin-top: 3rem;
-    padding-bottom: 2rem;
-}
-
-.section2 p {
-    font-size: 1rem;
-    text-align: center;    
-}
-
 @media (max-width: 1000px) {
     .page1 img {
         max-width: 100%;
